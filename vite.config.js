@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-    base:"/weather.github.io"
+    base:"/weather.github.io/"
 })
