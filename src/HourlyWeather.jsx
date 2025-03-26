@@ -48,7 +48,7 @@ const HourlyWeather = React.memo(({ calTime, weather, getWeatherIcon }) => {
                   weather?.hourly?.weathercode &&
                   time < weather.hourly.weathercode.length
                     ? getWeatherIcon(weather.hourly.weathercode[time], time)
-                    : "/placeholder.svg?height=40&width=40"
+                    : "/dist/Weather-Animated-icons/Clear sky.gif"
                 }
                 alt="Weather Icon"
                 className="w-10 h-10 mx-auto my-2"

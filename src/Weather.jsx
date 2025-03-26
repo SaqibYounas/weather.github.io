@@ -121,39 +121,39 @@ function WeatherApp() {
           : true; // Default
       const icons = {
         0: isDayTime
-          ? "/Weather-Animated-icons/Clear sky.gif"
-          : "/Weather-Animated-icons/Night.gif",
+          ? "Weather-Animated-icons/Clear sky.gif"
+          : "Weather-Animated-icons/Night.gif",
         1: isDayTime
-          ? "/Weather-Animated-icons/Clear sky.gif"
-          : "/Weather-Animated-icons/Night.gif",
+          ? "Weather-Animated-icons/Clear sky.gif"
+          : "Weather-Animated-icons/Night.gif",
         2: isDayTime
-          ? "/Weather-Animated-icons/Partly cloudy.gif"
-          : "/Weather-Animated-icons/cloudy-night.gif",
+          ? "Weather-Animated-icons/Partly cloudy.gif"
+          : "Weather-Animated-icons/cloudy-night.gif",
         3: isDayTime
-          ? "/Weather-Animated-icons/Overcast.gif"
-          : "/Weather-Animated-icons/cloudy-night.gif",
+          ? "Weather-Animated-icons/Overcast.gif"
+          : "Weather-Animated-icons/cloudy-night.gif",
         45: isDayTime
-          ? "/Weather-Animated-icons/Fog or mist.gif"
-          : "/Weather-Animated-icons/night fog.gif",
+          ? "Weather-Animated-icons/Fog or mist.gif"
+          : "Weather-Animated-icons/night fog.gif",
         48: isDayTime
-          ? "/Weather-Animated-icons/Foggy.gif"
-          : "/Weather-Animated-icons/night fog.gif",
-        51: "/Weather-Animated-icons/Drizzle.gif",
-        53: "/Weather-Animated-icons/Drizzle.gif",
-        55: "/Weather-Animated-icons/Drizzle.gif",
-        61: "/Weather-Animated-icons/Rain showers.gif",
-        63: "/Weather-Animated-icons/Rain showers.gif",
-        65: "/Weather-Animated-icons/Rain showers.gif",
-        80: "/Weather-Animated-icons/Rain showers.gif",
-        81: "/Weather-Animated-icons/Rain showers.gif",
-        82: "/Weather-Animated-icons/Rain showers.gif",
-        95: "/Weather-Animated-icons/Thunderstorm.gif",
-        96: "/Weather-Animated-icons/Thunderstorm.gif",
-        99: "/Weather-Animated-icons/Thunderstorm.gif",
+          ? "Weather-Animated-icons/Foggy.gif"
+          : "Weather-Animated-icons/night fog.gif",
+        51: "Weather-Animated-icons/Drizzle.gif",
+        53: "Weather-Animated-icons/Drizzle.gif",
+        55: "Weather-Animated-icons/Drizzle.gif",
+        61: "Weather-Animated-icons/Rain showers.gif",
+        63: "Weather-Animated-icons/Rain showers.gif",
+        65: "Weather-Animated-icons/Rain showers.gif",
+        80: "Weather-Animated-icons/Rain showers.gif",
+        81: "Weather-Animated-icons/Rain showers.gif",
+        82: "Weather-Animated-icons/Rain showers.gif",
+        95: "Weather-Animated-icons/Thunderstorm.gif",
+        96: "Weather-Animated-icons/Thunderstorm.gif",
+        99: "Weather-Animated-icons/Thunderstorm.gif",
       };
       return icons[code] || "/Weather-Animated-icons/Default.gif";
     },
-    [sunrise, sunset] // ✅ Add `weather` as dependency if sunrise() & sunset() depend on it
+    [sunrise, sunset] //  Add `weather` as dependency if sunrise() & sunset() depend on it
   );
 
   //getgetWeatherCondition is callback to pass props in every render to create function send props functions
