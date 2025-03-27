@@ -25,7 +25,7 @@ const SevenDays = React.memo(({ weekDays, weather, getWeatherIcon, getWeatherCon
                   src={
                     weather?.daily?.weathercode?.[i] !== undefined
                       ? getWeatherIcon(weather.daily.weathercode[i]) // Get the weather icon based on the weather code
-                      : "/placeholder.svg?height=40&width=40" // Placeholder if data is missing
+                      : "Weather-Animated-icons/Clear sky.gif" // Placeholder if data is missing
                   }
                   alt="Weather Icon"
                   className="w-10 h-10 mr-2"
