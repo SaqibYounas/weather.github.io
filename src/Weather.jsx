@@ -236,7 +236,7 @@ function WeatherApp() {
                         weather.daily.weathercode[0],
                         calTime.current
                       )
-                    : "/placeholder.svg?height=80&width=80"
+                    : "Weather-Animated-icons/Clear sky.gif"
                 }
                 alt="Weather Icon"
                 className="w-16 h-16"
