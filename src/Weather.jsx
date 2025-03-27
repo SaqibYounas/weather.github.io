@@ -117,7 +117,7 @@ function WeatherApp() {
       //check is time in code pass parameters hook not undefined used turnanry operator codition is false to store in true
       const isDayTime =
         time !== undefined && sunrise !== null && sunset !== null
-          ? time >= sunrise && time <= sunset
+          ? time%24 >= sunrise && time%24 <= sunset
           : true; // Default
       const icons = {
         0: isDayTime
