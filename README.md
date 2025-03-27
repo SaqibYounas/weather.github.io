@@ -12,7 +12,7 @@ Utilizes React for a dynamic and interactive UI.
 Uses APIs: Fetches real-time weather data using an external weather API.
 
 Routing Added: Implemented React Router for navigation.
-
+<br/>
 Tailwind CSS: Styled using Tailwind CSS for a modern and responsive design.
 
 Responsive Design: Works on both mobile and desktop devices.
