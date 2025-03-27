@@ -35,4 +35,4 @@ const weatherUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&
 
 Screenshot
 
-![Weather App](public/Weather-Animated-icons/Weather-App.PNG)
+![Weather App](public/Weather-Animated-icons/Weather.PNG)
